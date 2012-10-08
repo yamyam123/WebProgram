@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang = "ko" > 
+
+	<head>
+		<meta charset="utf-8">
+		<title>설문조사</title>
+		<style type = "text/css">
+			a:link{color:red;text-decoration:none ; background:#ccc}
+			a:visited{ color:#ff3366 ; text-decoration:none ; background:#}
+			a:active {color:white ; text-decoration:underline; background:#ccc}
+			a:hover{color:#6600ff; text-decoration:underline ; background:#ccc}
+		table {
+			width : 25% ; 
+			border-collapse : collapse ; 
+			text-align : center ;
+		}
+		
+		</style>
+	</head>
+
+	<body>
+	
+		<form action = "#" method="post">
+		<table border = "1">
+		<tr>
+			<th>이름</th>
+			<td   >
+				<input type = "text"/>
+				<input type = "button" value = "중복조회"/>
+			</td>
+		</tr>
+	
+	<tr>
+		<th>학번</th>
+		<td  >
+			<input type = "text"/>
+			<input type = "button" value = "학번확인"/>
+		</td>
+	</tr>
+
+	<tr>
+		<th>성별</th>
+		<td  >
+			<input type = "radio" name="sex" value="m"/>남
+			<input type = "radio" name="sex" value="f"/>여
+		</td>
+	</tr>
+		
+	<tr>
+		<th>취미</th>
+		<td  >
+			<input type = "checkbox" name = "hobby" value = "movie"/> 영화
+			<input type = "checkbox" name = "hobby" value = "sport"/> 운동						<input type = "checkbox" name = "hobby" value = "game"/> 게임
+			<input type = "checkbox" name = "hobby" value = "book"/> 책
+		</td>
+	</tr>
+	
+	<tr>
+		<th>대학계열</th>
+		<td  >
+			<input type = "radio" name = "unversity" value = "class"/> 자연과학
+			<input type = "radio" name = "unversity" value = "class"/> 인문과학
+		</td>
+	</tr>
+
+	<tr>
+		<th>지역</th>
+		<td  >
+			<select>
+				<option value = "seoul">서울</option>
+				<option value = "suwon">수원</option>
+				<option value = "youngin">용인</option>
+			</select>
+		</td>
+	</tr>
+	
+	<tr>
+		<th>하고싶은말<br/></th>
+		<td >
+			<textarea cols = "30" rows = "5"  name = "talk">
+			</textarea><br/>
+		</td>
+	</tr>
+			
+	<tr>
+		<td colspan ="2" >
+			<input type = "checkbox" name = "agree"/>설문한 내용을 확인하셨습니까?
+		</td>
+	</tr>
+
+	</table>
+	</form>
+
+	</body>
+    
+</html>

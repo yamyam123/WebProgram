@@ -1,0 +1,115 @@
+
+
+* { padding: 0; margin: 0; }
+
+body {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 13px;
+}
+
+
+a:link{color:hotpink;text-decoration:none ; background:#ffcccc}
+a:visited{ color:hotpink ; text-decoration:none ; background:#ffcccc}
+a:active {color:white ; text-decoration:underline; background:#ffccff}
+a:hover{color:#6600ff; text-decoration:underline ; background:#ffccff}
+
+ul
+{
+list-style-type : none ; 
+}
+
+span.ex1
+{
+color : gray ; 
+margin-right:8px; 
+}
+
+#ex1
+{
+border : 2px solid black ; 
+padding : 10px ; 
+margin: 10px 0px 0px 0px ;
+background-color : #fff ; 
+width : 800px ; height : 250px ; 
+}
+
+#wrapper { 
+ margin: 0 auto;
+ width: 922px;
+}
+#faux {
+ background: url(faux-2-3-col.gif);
+ margin-bottom: 0px;
+ overflow: auto; /* Paul O Brien Fix for IE www.pmob.co.uk */
+ width: 100%
+}
+#header {
+ color: #333;
+ width: 902px;
+ padding: 5px;
+ height: 50px;
+ margin: 10px 0px 0px 0px ;
+ background: #ffcccc;
+}
+
+#header_top {height:10px; }
+#header_left{
+	width:200px; float:left;display:inline; color:#333;
+	padding:10px; height:10px;
+}
+#header_right{width:150px;float:right;text-align:right;
+	display:inline; padding:20px 30px 0 0;}
+
+
+#leftcolumn { 
+ display: inline;
+ color: #333;
+ margin : 0px;
+ padding: 0px;
+ width: 370px;
+ float: left;
+}
+#content { 
+ float: left;
+ color: #333;
+ margin: 10px 13px;
+ padding: 0px;
+ width: 265px;
+ display: inline;
+ position: relative;
+ font-size : 15px; 
+}
+#rightcolumn { 
+ display: inline;
+ position: relative;
+ color: #333;
+ margin:10px 10px 10px 100px;
+ padding: 0px;
+ width: 195px;
+ float:left;
+}
+#navbar {width:760px; height:30px;background-color:#ABBEBE;}
+#navbar ul {margin-left:35px;padding:0;}
+#navbar ul li {float:left;}
+#navbar ul li a{
+	color:#333; background-color:#cccccc;
+	display:block;
+	width:120px;
+	text-align:center;
+	padding:0px 10px; 
+	font: bold 12px/30px Tahoma;
+	text-decoration:none;
+	margin-left:1px;
+}
+#navbar ul li a.selected {background-color:#fff;}
+#navbar ul li a:hover {background-color:#709647;}
+
+#footer { 
+ width: 902px;
+ clear: both;
+ color: #333;
+ background: #ffcccc;
+ margin: 0px 0px 10px 0px;
+ padding: 10px;
+}
+.clear { clear: both; background: none; }

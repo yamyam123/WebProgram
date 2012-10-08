@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ko"> 
+
+	<head>
+	<meta charset="utf-8">
+	<title>내가 좋아하는 가수</title>
+	<style type = "text/css">
+			a:link{color:red;text-decoration:none ; background:#ffccff}
+			a:visited{ color:#ff3366 ; text-decoration:none ; background:#ccf}
+			a:active {color:white ; text-decoration:underline; background:#ffccff}
+			a:hover{color:#6600ff; text-decoration:underline ; background:#ffccff}
+		th {color:hotpink;}
+		table {
+			background-color : #ffcccc ; 
+			width : 40% ; 
+			border-collapse : collapse ; 
+			text-align : center ;
+		}
+		</style>
+	</head>
+
+	<body>
+		<h1>내가 좋아하는 가수 소개하기 </h1>
+	<table border=1 >
+	<caption> 가수목록 </caption>
+
+	<tr>
+	<th>그룹/솔로</th>
+	<th>이름</th>
+	<th>멤버</th>
+	<th>좋아하는 노래</th>
+	<th>순위</th>
+	</tr>
+	
+	<tr >
+	<td rowspan="3"><b>그룹</b></td>
+	<td ><img src="./images/1.jpg" width="120" 
+			  height="180" alt="카라"/><br/><b>카라</b></td>
+	<td>5명
+	<ul>
+	<li>구하라</li>
+	<li>니콜</li>
+	<li>한승연</li>
+	<li>박규리</li>
+	<li>강지영</li>
+	</ul>
+	</td>
+	<td >판도라<br/>
+	<a href= "http://www.youtube.com/watch?v=YQGw1wkCEcI" target="_blank">뮤비감상
+			</a></td>
+	<td>3위</td>
+	
+	</tr>
+	<tr>
+	<td><img src="./images/2.jpg" width="120" 
+			  height="180" alt="시크릿"/><br/><b>시크릿</b></td>
+	<td>4명
+	<ul>
+	<li>한선화</li>
+	<li>징거</li>
+	<li>전효성</li>
+	<li>송지은</li>
+	</ul></td>
+	
+	<td>포이즌<br/>
+	<a href= "http://www.youtube.com/watch?v=uz2L_fsJ7zE" target="_blank">뮤비감상
+			</a></td>
+	<td>2위</td>
+	</tr>
+
+	<tr>
+	<td ><img src="./images/3.jpg" width="120" 
+			  height="180" alt="소녀시대"/><br/><b>소녀시대</b></td>
+	<td>9명
+	<ul>
+	<li>태연</li>
+	<li>윤아</li>
+	<li>티파니</li>
+	<li>수영</li>
+	<li>써니</li>
+	<li>유리</li>
+	<li>효연</li>
+	<li>제시카</li>
+	<li>서현</li>
+	</ul></td>
+	
+	<td>Gee <br/>
+	<a href= "http://www.youtube.com/watch?v=U7mPqycQ0tQ" target="_blank">뮤비감상
+			</a> </td>
+	<td>4위</td>
+	</tr>
+
+	<tr>
+	<td rowspan = "2" style="text-align:center" ><b>솔로</b></td>
+	<td ><img src="./images/4.jpg" width="120" 
+			  height="180" alt="윤하"/><br/><b>윤하</b></td>
+			  <td>1명
+	<ul>
+	<li>윤하</li>
+	</ul></td>
+	<td>Run<br/>
+	<a href= "http://www.youtube.com/watch?v=u1ulVHU-7bo" target="_blank">뮤비감상
+			</a></td>
+	<td>1위</td>
+	</tr>
+	
+	<tr>
+	<td ><img src="./images/6.jpg" width="120" 
+			  height="180" alt="에일리"/><br/><b>에일리</b></td>
+	<td>1명
+	<ul>
+	<li>에일리</li>
+	</ul></td>
+	<td>Heaven <br/>
+	<a href= "http://www.youtube.com/watch?v=L9ro1KjkJMg" target="_blank">뮤비감상
+			</a></td>
+	<td>5위</td>
+	</tr>
+	</table>
+
+	<a href = "./submit01.html" target="_blank"><b> 양재혁 자기소개 바로가기</b></a><br/>
+	<a href = "./submit03.html" target="_blank"><b> 양재혁 설문조사 바로가기</b></a><br/>
+	
+	</body>
+
+</html>
